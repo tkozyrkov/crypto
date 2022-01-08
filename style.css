@@ -1,0 +1,173 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #0a0d16;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  max-height: 150px;
+  margin-bottom: 85px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #101322;
+  border-radius: 15px;
+}
+
+.header__nav-link {
+  padding: 17px 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header__nav-link:hover {
+  color: #0a6bff;
+}
+
+.header__btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #0b6df3;
+  border-radius: 12px;
+  padding: 10px;
+  border: 0;
+}
+
+.header__btn:hover {
+  cursor: pointer;
+  background-color: #0549a8;
+  transition: background 300ms, opacity 500ms 800ms;
+}
+
+.top__banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__banner-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top__banner-icon {
+  margin-bottom: 35px;
+}
+
+.top__banner-text {
+  /* display: flex;
+  flex-direction: column; */
+  max-width: 535px;
+  margin-bottom: 40px;
+  margin-right: 200px;
+}
+
+.top__banner-title {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 135%;
+  margin-bottom: 25px;
+}
+
+.top__banner-title span {
+  color: #0b6df3;
+}
+
+.top__banner-img {
+  width: 100%;
+}
+
+.top__banner-description {
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.top__banner-description span {
+  color: #0b6df3;
+}
+
+.top__banner-btn {
+  background-color: #0b6df3;
+  color: #ffffff;
+  border: 0;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 15px;
+  margin-right: 35px;
+}
+
+.top__banner-btn:hover {
+  cursor: pointer;
+  background-color: #0549a8;
+  transition: background 300ms, opacity 500ms 800ms;
+}
+
+.btn__inner {
+  display: flex;
+  flex-direction: row;
+}
